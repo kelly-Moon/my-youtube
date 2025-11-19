@@ -1,10 +1,12 @@
 import React from "react";
 
-const Main = () => {
+const Main = (props) => {
   return (
-    <main id="main" role="main">
-      Main
-    </main>
+    <>
+      <main id="main" role="main">
+        {props.children}
+      </main>
+    </>
   );
 };
 
