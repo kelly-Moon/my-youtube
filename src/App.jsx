@@ -15,11 +15,12 @@ const Search = lazy(() => import("./pages/Search"));
 const Not = lazy(() => import("./pages/Not"));
 
 import Loading from "./components/Loading";
+import Main from "./components/section/Main";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Suspense fallback={<Loading />}>
+      <Suspense fallback={<Main />}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/today" element={<Today />} />
