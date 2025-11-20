@@ -14,22 +14,7 @@ const Video = lazy(() => import("./pages/Video"));
 const Search = lazy(() => import("./pages/Search"));
 const Not = lazy(() => import("./pages/Not"));
 
-// import Home from "./pages/Home";
-// import Today from "./pages/Today";
-// import Creators from "./pages/Creators";
-// import Travel from "./pages/Travel";
-// import Movie from "./pages/Movie";
-// import Music from "./pages/Music";
-// import Recipe from "./pages/Recipe";
-// import Study from "./pages/Study";
-// import Channel from "./pages/Channel";
-// import Video from "./pages/Video";
-// import Search from "./pages/Search";
-// import Not from "./pages/Not";
-
-import Layout from "./components/section/Layout";
 import Loading from "./components/Loading";
-import Main from "./components/section/Main";
 
 const App = () => {
   return (
