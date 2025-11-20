@@ -1,7 +1,8 @@
 import React from "react";
+import Main from "../components/section/Main";
 
 const Movie = () => {
-  return <div>Movie</div>;
+  return <Main>Movie</Main>;
 };
 
 export default Movie;

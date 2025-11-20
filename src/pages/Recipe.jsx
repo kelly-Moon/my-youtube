@@ -1,7 +1,8 @@
 import React from "react";
+import Main from "../components/section/Main";
 
 const Recipe = () => {
-  return <div>Recipe</div>;
+  return <Main>Recipe</Main>;
 };
 
 export default Recipe;

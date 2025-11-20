@@ -34,22 +34,20 @@ import Main from "./components/section/Main";
 const App = () => {
   return (
     <BrowserRouter>
-      <Suspense fallback={<Main />}>
+      <Suspense fallback={<Loading />}>
         <Routes>
-          <Route element={<Layout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/today" element={<Today />} />
-            <Route path="/creators" element={<Creators />} />
-            <Route path="/travel" element={<Travel />} />
-            <Route path="/movie" element={<Movie />} />
-            <Route path="/music" element={<Music />} />
-            <Route path="/recipe" element={<Recipe />} />
-            <Route path="/study" element={<Study />} />
-            <Route path="/channel/:channelID" element={<Channel />} />
-            <Route path="/video/:videoID" element={<Video />} />
-            <Route path="/search/:searchID" element={<Search />} />
-            <Route path="*" element={<Not />} />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/today" element={<Today />} />
+          <Route path="/creators" element={<Creators />} />
+          <Route path="/travel" element={<Travel />} />
+          <Route path="/movie" element={<Movie />} />
+          <Route path="/music" element={<Music />} />
+          <Route path="/recipe" element={<Recipe />} />
+          <Route path="/study" element={<Study />} />
+          <Route path="/channel/:channelID" element={<Channel />} />
+          <Route path="/video/:videoID" element={<Video />} />
+          <Route path="/search/:searchID" element={<Search />} />
+          <Route path="*" element={<Not />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
