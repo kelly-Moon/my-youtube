@@ -19,7 +19,7 @@ export const headerMenus = [
     src: "/",
   },
   {
-    title: "추천 영상",
+    title: "오늘의 추천 영상",
     icon: CiMoneyBill,
     src: "/today",
   },
