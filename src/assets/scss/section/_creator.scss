@@ -1,0 +1,51 @@
+@use "../setting/mixin" as *;
+
+.creator__inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  &.overflow {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .creator {
+    margin-right: 20px;
+
+    .creator_img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+    .creator_info {
+      width: 150px;
+      text-align: center;
+      @include line-one;
+      padding-bottom: 40px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .creator__inner {
+    justify-content: center;
+
+    .creator {
+      margin-right: 0;
+      .creator_img {
+        width: 130px;
+        height: 130px;
+        margin: 10px auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .creator__inner {
+    margin-top: 70px;
+  }
+}
