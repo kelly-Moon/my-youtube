@@ -54,6 +54,19 @@ export const creatorText = [
     channelId: "UC3SyT4_WLHzN7JmHQwKQZww",
   },
   {
+    img: "https://yt3.googleusercontent.com/ytc/AIdro_nZ6VQ2T_OMvnWG1eVScH_NKqJXHdevOQmuy1Se3r5gsA=s160-c-k-c0x00ffffff-no-rj",
+    name: "취미로 요리하는 남자 Yonam",
+    channelAddress: "https://www.youtube.com/@%EC%B7%A8%EC%9A%94%EB%82%A8",
+    channelId: "UCyozK5OFN5lDrwim5wqQnLA",
+  },
+  {
+    img: "https://yt3.googleusercontent.com/QqZ-XQLYP9yWpFwSMz8t9ySfpxe2v-3Fvb_porc50k8DpAigUgjliI7npkVHYlyG-UEzlx14ZqQ=s160-c-k-c0x00ffffff-no-rj",
+    name: "요리고수",
+    channelAddress:
+      "https://www.youtube.com/@%EC%9A%94%EB%A6%AC%EA%B3%A0%EC%88%98",
+    channelId: "UCnMJ4zTwsDWHY1cdzHvcy0Q",
+  },
+  {
     img: "https://yt3.googleusercontent.com/ytc/AOPolaSNRWU5nI-gDyzEdtbhpLqWg8wXNs-FQHf35iMCOw=s176-c-k-c0x00ffffff-no-rj",
     name: "생활코딩",
     channelAddress: "https://www.youtube.com/@coohde",
@@ -197,12 +210,6 @@ export const creatorText = [
     name: "Yuri Artiukh",
     channelAddress: "https://www.youtube.com/@akella_",
     channelId: "UCDo7RTzizoOdPjY8A-xDR7g",
-  },
-  {
-    img: "https://yt3.googleusercontent.com/ytc/AOPolaQOeqOOHYrdr9qaOxYqujnMoTvladljn12PeOdeVA=s176-c-k-c0x00ffffff-no-rj",
-    name: "디자인베이스",
-    channelAddress: "https://www.youtube.com/@designbase",
-    channelId: "UCvYnDMeL-PFZhfIz6oc_U-Q",
   },
   {
     img: "https://yt3.googleusercontent.com/ytc/AOPolaRq6HIiAsf1pv1CHAlIIM6MdbnaX0jqpTCOyIM5TA=s176-c-k-c0x00ffffff-no-rj",

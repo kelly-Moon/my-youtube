@@ -1,7 +1,24 @@
 import React from "react";
+import { musicText } from "../../data/music";
+import { Link } from "react-router-dom";
 
 const Music = () => {
-  return <div>Music</div>;
+  return (
+    <section id="music">
+      <h2>🎵 취향을 울리는 음악 탐색 공간!</h2>
+      <div className="video__inner">
+        {musicText.map((video, key) => (
+          <div className="video" key={key}>
+            <div className="video__thumb play__icon">
+              <Link to={`/video/${video.videoId}`}>
+                <img src={video.img} alt={video.title} />
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 };
 
 export default Music;
