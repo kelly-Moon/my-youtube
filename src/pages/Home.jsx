@@ -10,6 +10,8 @@ import { movieText } from "../data/movie";
 import { musicText } from "../data/music";
 import { recipeText } from "../data/recipe";
 import { studyText } from "../data/study";
+import { creatorText } from "../data/creator";
+import { todayText } from "../data/today";
 
 const Home = () => {
   return (
@@ -17,8 +19,12 @@ const Home = () => {
       title="퍼니문 유튜브"
       description="퍼니문 유튜브에 오신 것을 환영합니다"
     >
-      <Today />
-      <Creator />
+      <Today videos={todayText} id="today" />
+      <Creator
+        videos={creatorText}
+        title="😎 추천 크리에이터를 소개합니다."
+        id="creator"
+      />
       <VideoSlider
         videos={travelText}
         title="✈️ 여행을 기록하고, 세계를 발견하다!"
