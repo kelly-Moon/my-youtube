@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Main from "../components/section/Main";
 import { creatorText } from "../data/creator";
 import { Link } from "react-router-dom";
 
 const Creators = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 300);
+  }, []);
+
+  const creatorPageClass = loading ? "isLoading" : "isLoaded";
+
   return (
     <Main title="추천 크리에티터" description="오늘의 추천 크리에티터입니다.">
-      <section id="creatorPage">
+      <section id="creatorPage" className={creatorPageClass}>
         <h2>😎 추천 크리에이터를 소개합니다.</h2>
         <div className="creator__inner">
           {creatorText.map((creator, key) => (
