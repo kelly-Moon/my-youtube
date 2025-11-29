@@ -3,7 +3,6 @@ import { Link, useParams } from "react-router-dom";
 import { fetchFromAPI } from "../utils/api";
 
 import Main from "../components/section/Main";
-import ReactPlayer from "react-player";
 
 import { CiChat1 } from "react-icons/ci";
 import { CiStar } from "react-icons/ci";
