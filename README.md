@@ -6,7 +6,7 @@ YouTube Data API를 활용하여 외부 데이터를 가져오는 방법을 익�
 ## 완성작 보기
 
 미리보기 : https://moon-youtube3.netlify.app/
-
+          https://moon-youtube3.vercel.app/
 ## 사용스택
 
 - node.js를 설치하고 사용합니다.
