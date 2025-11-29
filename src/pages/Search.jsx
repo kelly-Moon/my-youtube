@@ -22,7 +22,6 @@ const Search = () => {
     fetchFromAPI("search", {
       part: "snippet",
       q: query,
-      maxResults: 48,
       type: "video",
       pageToken: pageToken,
     })
@@ -48,6 +47,9 @@ const Search = () => {
   return (
     <Main title="유튜브 검색" description="유튜브 검색 페이지입니다.">
       <section id="searchPage" className={searchPageClass}>
+        <h2>
+          👽<em>{searchId}</em> 검색 결과입니다
+        </h2>
         <div className="video__inner search">
           <VideoSearch videos={videos} />
         </div>
