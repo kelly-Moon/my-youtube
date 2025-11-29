@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import Header from "./Header";
 import Footer from "./Footer";
 import Search from "./Search";
+import ScrollTo from "../../utils/scrollTo";
 
 // 주의!! idex.html에서 <meta name="description"...> 지우기
 // 콘솔창에서 확인해보기 document.querySelector('meta[name="description"]')
@@ -11,6 +12,7 @@ import Search from "./Search";
 const Main = (props) => {
   return (
     <>
+      <ScrollTo />
       <Helmet
         titleTemplate="%s | My-Youtube"
         defaultTitle="My-Youtube"

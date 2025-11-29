@@ -24,6 +24,7 @@ const Search = () => {
       q: query,
       type: "video",
       pageToken: pageToken,
+      // `search?part=snippet&type=video&q=${query}&pageToken=${pageToken}`
     })
       .then((data) => {
         setNextPageToken(data.nextPageToken);
